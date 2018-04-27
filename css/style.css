@@ -1,5 +1,13 @@
 /* COLORS */
 /* FONTS */
+h1 {
+  padding: 50px 0;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #C6C6C6; }
+
 /* --------- Header --------- */
 header {
   background: #fff;
