@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body {
+  width: 70%;
+  margin: 0 auto; }
+
+/* --------- Header --------- */
+header {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border: 1px solid grey; }
+  header a img {
+    width: 220px; }
+  header nav {
+    position: absolute;
+    right: 0;
+    font-size: 1.2em; }
+    header nav ul li {
+      border: 3px solid #f83939; }
+      header nav ul li a {
+        color: #fff; }
+      header nav ul li #sum,
+      header nav ul li #sum2 {
+        padding-left: 10px;
+        color: #A7A7A7; }
+      header nav ul li #sum:after,
+      header nav ul li #sum2:after {
+        content: '€'; }
+    header nav ul li:hover,
+    header nav ul .current {
+      border-bottom: 3px solid #008CC1;
+      transition: border-color 1s ease; }
+
+/*# sourceMappingURL=style.css.map */
