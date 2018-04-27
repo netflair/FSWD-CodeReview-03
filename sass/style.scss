@@ -1,54 +1,75 @@
 @import "variables";
 
-body{
-	width: 70%;
-	margin: 0 auto;
-}
 
 /* --------- Header --------- */
 
 header {
     background: #fff;
-    display: flex;
-    align-items: center;
-    border:1px solid grey;
-	
-	a{
-		img {
-			width: 220px;
-		}
-	}	
-
-    nav {
-        position: absolute;
-        right: 0;
-        font-size: 1.2em;
-
-        ul {
-            li {
-                border: 3px solid $mainColor;
-
-                a {
-                    color: #fff;
-                }
-
-                #sum,
-                #sum2 {
-                    padding-left: 10px;
-                    color: #A7A7A7;
-                }
-
-                #sum:after,
-                #sum2:after {
-                    content: '€';
-                }
-            }
-
-            li:hover,
-            .current {
-                border-bottom: 3px solid $secColor;
-                transition: border-color 1s ease;
-            }
-        }
-    }
+    padding: 20px 0;
+    height: 100px;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
+
+#headerContent {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+#headerContent img {
+	width: 220px;
+}
+	
+
+nav {
+    font-size: 1.2em;
+}
+
+
+
+/* --------- Main: Home --------- */
+main {
+	height: 100%;
+}
+
+figure {
+		margin-top: 140px;
+}
+
+figcaption {
+	position: absolute;
+	font-size: 3vw;
+	padding: 20px;
+	font-family: $hero;
+	color: $secColor;
+	text-transform: uppercase;
+	text-shadow: #fff 3px 2px;
+}
+
+figure img {
+	width: 100%;
+}
+
+.sectionContent {
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+section:nth-child(odd) {
+	background: red;
+}
+
+.box {
+	border: 1px solid grey;
+	width:100%;
+}
+
