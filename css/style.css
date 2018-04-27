@@ -1,11 +1,18 @@
 /* COLORS */
 /* FONTS */
+body {
+  font-family: "Roboto", sans-serif; }
+
 h1 {
   padding: 50px 0;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
   font-size: 3em;
   text-transform: uppercase;
+  color: #C6C6C6; }
+
+i {
+  font-size: 4em;
   color: #C6C6C6; }
 
 /* --------- Header --------- */
@@ -61,17 +68,25 @@ figure img {
   width: 100%; }
 
 .sectionContent {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 50px 0;
   display: flex;
   justify-content: space-evenly; }
 
 section:nth-child(odd) {
-  background: red; }
+  background: #efefef; }
 
 .box {
   width: 100%;
   text-align: center; }
+
+#numbers p {
+  font-size: 2em;
+  color: #008CC1;
+  font-weight: bold; }
+
+#numbers h3 {
+  color: #f83939; }
 
 /*# sourceMappingURL=style.css.map */

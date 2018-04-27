@@ -1,11 +1,20 @@
 @import "variables";
 
+body {
+	font-family: $text;
+}
+
 h1 {
 	padding: 50px 0;
 	font-family: $hero;
 	text-align: center;
 	font-size: 3em;
 	text-transform: uppercase;
+	color: #C6C6C6;
+}
+
+i {
+	font-size: 4em;
 	color: #C6C6C6;
 }
 
@@ -78,7 +87,7 @@ figure img {
 }
 
 .sectionContent {
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 50px 0;
 	display: flex;
@@ -86,7 +95,7 @@ figure img {
 }
 
 section:nth-child(odd) {
-	background: red;
+	background: #efefef;
 }
 
 .box {
@@ -94,3 +103,12 @@ section:nth-child(odd) {
 	text-align: center;
 }
 
+#numbers p {
+	font-size: 2em;
+	color: $secColor;
+	font-weight: bold;
+}
+
+#numbers h3 {
+	color: $mainColor;
+}
