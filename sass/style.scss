@@ -5,25 +5,33 @@
 
 header {
     background: #fff;
-    padding: 20px 0;
-    height: 100px;
     background: #fff;
-    position: fixed;
+  	position: fixed;
     width: 100%;
     z-index: 1;
+    border-bottom: 3px solid #ff0000;
 }
 
 #headerContent {
 	display: flex;
     justify-content: space-between;
     align-items: center;
-	width: 70%;
 	margin: 0 auto;
+	padding: 10px 20px;
 }
 
 
 #headerContent img {
-	width: 220px;
+	width: 150px;
+
+}
+
+#title {
+	left: 180px;
+	position: absolute;
+	font-size: 2em;
+	font-family: $hero;
+	color: $secColor;
 }
 	
 
@@ -38,8 +46,12 @@ main {
 	height: 100%;
 }
 
+.hero {
+	margin: 0 auto;
+}
+
 figure {
-		margin-top: 140px;
+	margin-top: 90px;
 }
 
 figcaption {
@@ -53,6 +65,7 @@ figcaption {
 }
 
 figure img {
+	max-height: 90vh;
 	width: 100%;
 }
 
@@ -69,7 +82,7 @@ section:nth-child(odd) {
 }
 
 .box {
-	border: 1px solid grey;
 	width:100%;
+	text-align: center;
 }
 

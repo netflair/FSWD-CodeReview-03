@@ -1,0 +1,17 @@
+var profile = [
+	{
+	"name":"Fran", 
+	"email":"fran@care-insurance.com",
+	"img":"./img/fran.png"
+	},
+	{
+	"name":"Bill",
+	"email":"bill@care-insurance.com",
+	"img":"./img/bill.png"
+	},
+	{
+	"name":"Fritz", 
+	"email":"fritz@care-insurance.com",
+	"img":"./img/fritz.png"
+	}
+];
