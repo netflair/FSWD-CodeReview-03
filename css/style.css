@@ -171,7 +171,8 @@ section:nth-child(even) {
   margin-top: -30px;
   margin-right: -30px; }
 
-.closeBtn:hover, .closeBtn:focus {
+.closeBtn:hover,
+.closeBtn:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer; }
@@ -179,7 +180,9 @@ section:nth-child(even) {
 section img {
   max-width: 95%; }
 
-#contact input, textarea, input[type="submit"] {
+#contact input,
+textarea,
+input[type="submit"] {
   width: 100%;
   margin-bottom: 10px;
   padding-left: 0;
@@ -202,7 +205,8 @@ footer {
   .sectionContent {
     width: 100%; } }
 @media screen and (max-width: 692px) {
-  .headerContent, .sectionContent {
+  .headerContent,
+  .sectionContent {
     flex-flow: wrap;
     padding-top: 0; }
 
