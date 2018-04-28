@@ -121,19 +121,37 @@
                 <h2>Check Prices</h2>
             </div>
             <div class="modal-body">
-                <label>Your Name: <input id="name" type="text"></label><br>
-                <label>Age: <input id="age" type="text"></label><br>
-                <label>Country: <input id="country" type="text"></label><br>
-                <label>Horsepower: <input id="power" type="text"></label>
+            <form autocomplete="off">    
+                <label>Your Name:
+                    <input id="name" type="text">
+                </label>
+                <br>
+                <label>Age:
+                    <input id="age" type="text">
+                </label>
+                <br>
+                <label>Country:
+                    <select id="country" name="country">
+                        <option value="pick">Choose your country</option>
+                        <option value="austria">Austria</option>
+                        <option value="germany">German</option>
+                        <option value="italy">Italy</option>
+                    </select>
+                </label>
+                <br>
+                <label>Horsepower:
+                    <input id="power" type="text">
+                </label>
+                </form>
                 <button id="submit" class="button">Calculate</button>
             </div>
-            <div class="modal-result">
-               sdf
+            <div id="result">
+                Please fill out the form.
             </div>
         </div>
     </div>
 </body>
 <script src="js/main.json"></script>
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 
 </html>

@@ -105,6 +105,11 @@ section:nth-child(odd) {
   color: #000;
   cursor: pointer; }
 
+#submit {
+  display: block;
+  width: 50%;
+  margin: 20px auto; }
+
 .modal {
   display: none;
   position: fixed;
@@ -122,20 +127,29 @@ section:nth-child(odd) {
   font-family: "Alfa Slab One", cursive; }
 
 .modal-body {
-  width: 50%;
-  border: 1px solid black;
+  width: 40%;
   margin: 20px auto; }
 
+#result {
+  border-top: 3px solid #f83939;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 15px; }
+
 .modal-body input {
-  color: #1c1c1c; }
+  width: 55%; }
+
+.modal-body select {
+  width: 59%; }
 
 .modal-body label {
-  width: 100%;
-  display: block; }
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .modal-content {
   background-color: #f4f4f4;
-  margin: 20% auto;
+  margin: 100px auto;
   padding: 40px;
   width: 70%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);

@@ -56,11 +56,12 @@ h1,h2,h3,h4 {
 	color: #2585d7;
 }
 
-input, textarea, button {
+input, textarea, button, select {
 	border: 1px solid #0f3657;
 	background: #efefef;
 	border-radius: 2px;
 	padding: 10px;
+  color: #1c1c1c;
 }
 
 code {
