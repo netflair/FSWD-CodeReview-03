@@ -44,9 +44,6 @@ header {
   font-family: "Alfa Slab One", cursive;
   color: #008CC1; }
 
-nav {
-  font-size: 1.2em; }
-
 /* --------- Main: Home --------- */
 main {
   height: 100%; }
@@ -76,8 +73,8 @@ figure img {
   padding: 50px 0;
   justify-content: space-evenly; }
 
-section:nth-child(odd) {
-  background: #efefef; }
+section:nth-child(even) {
+  background: #FAFAFA; }
 
 .box {
   width: 100%;
@@ -178,5 +175,42 @@ section:nth-child(odd) {
   color: #000;
   text-decoration: none;
   cursor: pointer; }
+
+section img {
+  max-width: 95%; }
+
+#contact input, textarea, input[type="submit"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0; }
+
+#contact form {
+  width: 50%; }
+
+footer {
+  border-top: 3px solid #f83939;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #008CC1;
+  font-size: 2em; }
+
+/* Media Querries */
+@media screen and (max-width: 1200px) {
+  .sectionContent {
+    width: 100%; } }
+@media screen and (max-width: 692px) {
+  .headerContent, .sectionContent {
+    flex-flow: wrap;
+    padding-top: 0; }
+
+  h1 {
+    font-size: 1.5em; }
+
+  #title {
+    position: static;
+    font-size: 1.2em; } }
 
 /*# sourceMappingURL=style.css.map */
