@@ -88,7 +88,6 @@
         <section>
             <h1>contact us</h1>
             <div id="contact" class="sectionContent">
-                <div id="fritz" class="box"></div>
                 <form action="#">
                     <br> Name:
                     <br>
@@ -106,13 +105,11 @@
                     <input type="submit" value="Submit" onclick="show()">
                 </form>
             </div>
-            </div>
         </section>
     </main>
     <footer>
         footer
     </footer>
-
     <!-- MODAL -->
     <div id="simpleModal" class="modal">
         <div class="modal-content">
@@ -121,27 +118,32 @@
                 <h2>Check Prices</h2>
             </div>
             <div class="modal-body">
-            <form autocomplete="off">    
-                <label>Your Name:
-                    <input id="name" type="text">
-                </label>
-                <br>
-                <label>Age:
-                    <input id="age" type="text">
-                </label>
-                <br>
-                <label>Country:
-                    <select id="country" name="country">
-                        <option value="pick">Choose your country</option>
-                        <option value="austria">Austria</option>
-                        <option value="germany">German</option>
-                        <option value="italy">Italy</option>
-                    </select>
-                </label>
-                <br>
-                <label>Horsepower:
-                    <input id="power" type="text">
-                </label>
+                <form autocomplete="off">
+                    <label>Your Name:
+                        <input id="name" type="text">
+                    </label>
+                    <p id="errName"></p>
+                   <br>
+                    <label>Age:
+                        <input id="age" type="text">
+                    </label>
+                    <p id="errAge"></p>
+                  <br>
+                    <label>Country:
+                        <select id="country" name="country">
+                            <option value="pick" selected>Choose your country</option>
+                            <option value="austria">Austria</option>
+                            <option value="germany">German</option>
+                            <option value="italy">Italy</option>
+                        </select>
+                    </label>
+                    <p id="errCountry"></p>
+                   <br>
+                    <label>Horsepower:
+                        <input id="power" type="text"> 
+                    </label>
+                    <p id="errPower"></p>
+                    <br>
                 </form>
                 <button id="submit" class="button">Calculate</button>
             </div>

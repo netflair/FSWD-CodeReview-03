@@ -1,5 +1,15 @@
 @import "variables";
 
+%flex-container {
+    display: flex;
+}
+
+@mixin box-shadow {
+    -webkit-box-shadow: 0 7px 20px 0 rgba(0,0,0,0.5), 0 7px 20px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 7px 20px 0 rgba(0,0,0,0.5), 0 7px 20px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.5), 0 7px 20px 0 rgba(0,0,0,0.5);
+}
+
 body {
 	font-family: $text;
 }
@@ -30,7 +40,7 @@ header {
 }
 
 #headerContent {
-	display: flex;
+	@extend %flex-container;
     justify-content: space-between;
     align-items: center;
 	margin: 0 auto;
@@ -89,7 +99,7 @@ figure img {
 	width: 80%;
 	margin: 0 auto;
 	padding: 50px 0;
-	display: flex;
+	@extend %flex-container;
 	justify-content: space-evenly;
 }
 
@@ -178,9 +188,14 @@ section:nth-child(odd) {
 }
 
 .modal-body label {
-	display: flex;
+	@extend %flex-container;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.modal-body p {
+	float: right;
+	color: $mainColor;
 }
 
 .modal-content {
@@ -188,7 +203,7 @@ section:nth-child(odd) {
 	margin: 100px auto;
 	padding:40px;
 	width:70%;
-	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+	@include box-shadow;
 	animation-name:modalopen;
 	animation-duration:1s;
 }
