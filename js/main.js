@@ -103,17 +103,17 @@ function calculateInsurance() {
         switch (country) {
             case "austria":
                 var aResult = power * 100 / age + 50;
-                result.innerHTML = name + ", your insurance costs: " + Math.round(aResult);
+                result.innerHTML = name + ", your insurance costs: " + Math.round(aResult) + "€";
                 break;
 
             case "germany":
                 var gResult = power * 100 / age + 100;
-                result.innerHTML = name + ", your insurance costs: " + Math.round(gResult);
+                result.innerHTML = name + ", your insurance costs: " + Math.round(gResult) + "€";
                 break;
 
             case "italy":
                 var iResult = power * 100 / age + 150;
-                result.innerHTML = name + ", your insurance costs: " + Math.round(iResult);
+                result.innerHTML = name + ", your insurance costs: " + Math.round(iResult) + "€";
                 break;
 
             default:
