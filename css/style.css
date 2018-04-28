@@ -93,7 +93,7 @@ section:nth-child(even) {
   background: #C6C6C6;
   padding: 1em 2em;
   color: #008CC1;
-  border: 0;
+  border: 1px solid #f83939;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase; }
@@ -203,7 +203,10 @@ footer {
 /* Media Querries */
 @media screen and (max-width: 1200px) {
   .sectionContent {
-    width: 100%; } }
+    width: 100%; }
+
+  .modal-body {
+    width: 80%; } }
 @media screen and (max-width: 692px) {
   .headerContent,
   .sectionContent {

@@ -62,9 +62,6 @@ header {
 }
 
 
-
-
-
 /* --------- Main: Home --------- */
 
 main {
@@ -131,7 +128,7 @@ section:nth-child(even) {
     background: #C6C6C6;
     padding: 1em 2em;
     color: $secColor;
-    border: 0;
+    border: 1px solid $mainColor;
     border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
@@ -266,6 +263,9 @@ footer {
 @media screen and (max-width: 1200px) {
     .sectionContent {
         width: 100%;
+    }
+    .modal-body {
+    	width: 80%;
     }
 }
 
