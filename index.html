@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<!--Stylesheets-->
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
+
 <body>
-	<!-- Header -->
-	<header id="header">
-		<div id="headerContent">
+    <!-- Header -->
+    <header id="header">
+        <div id="headerContent">
             <a href="index.html" title="Home">
                 <img src="img/logo.png" alt="logo">
             </a>
@@ -23,104 +25,115 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="invoice.html" title="invoice">
-                        Invoice
-                        </a>
+                        <button id="modalBtn" class="button">Check Prices</button>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-	
-	<main>
-		<!-- Hero Image -->
-		<div id="hero">
-			<figure>
-				<figcaption>
-					The old days are gone!<br>
-					Let us be your Wingman!
-				</figcaption>
-				<img id="heroImage" src="img/hero.jpg" alt="broken_car">
-			</figure>
-		</div>
-		<!-- Numbers Section -->
-		<section>
-			<h1>just for you</h1>
-			<div id="numbers" class="sectionContent">
-				<div class="box">
-					<i class="far fa-money-bill-alt"></i>
-					<h3>Payouts</h3>
-					<p>3,245.850$</p>
-				</div>
-				<div class="box">
-					<i class="fas fa-wrench"></i>
-					<h3>Wheels Fixed</h3>
-					<p>5,745.381</p>
-				</div>
-				<div class="box">
-					<i class="fas fa-road"></i>
-					<h3>On The Road</h3>
-					<p>10,126.443 miles</p>
-				</div>
-			</div>
-		</section>
-		<!-- Service Section -->
-		<section>
-			<h1>our services</h1>
-			<div id="service" class="sectionContent">
-				<div class="box">
-					
-				</div>
-				<div class="box">
-
-				</div>
-				<div class="box">
-
-				</div>
-
-			</div>
-		</section>
-		<!-- Team Section -->
-		<section>
-			<h1>our team</h1>
-			<div id="team" class="sectionContent">
-				<div id="fritz" class="box"></div>
-				<div id="fran" class="box"></div>
-				<div id="bill" class="box"></div>
-			</div>
-		</section>
-		<!-- Contact Section -->
-		<section>
-			<h1>contact us</h1>
-			<div id="contact" class="sectionContent">
-				<div id="fritz" class="box"></div>
-				<form action="#">
-                <br> Name:
-                <br>
-                <input type="text" name="firstname" placeholder="please enter you name">
-                <br>
-                <br> E-Mail:
-                <br>
-                <input type="text" name="lastname" placeholder="please enter you email">
-                <br>
-                <br> Your Message:
-                <br>
-                <textarea name="msg" placeholder="enter your message"></textarea>
-                <br>
-                <br>
-                <input type="submit" value="Submit" onclick="show()">
-     
-            </form>
+    <main>
+        <!-- Hero Image -->
+        <div id="hero">
+            <figure>
+                <figcaption>
+                    The old days are gone!
+                    <br> Let us be your Wingman!
+                </figcaption>
+                <img id="heroImage" src="img/hero.jpg" alt="broken_car">
+            </figure>
         </div>
-			</div>
-		</section>
-	</main>
+        <!-- Numbers Section -->
+        <section>
+            <h1>just for you</h1>
+            <div id="numbers" class="sectionContent">
+                <div class="box">
+                    <i class="far fa-money-bill-alt"></i>
+                    <h3>Payouts</h3>
+                    <p>3,245.850$</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Wheels Fixed</h3>
+                    <p>5,745.381</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-road"></i>
+                    <h3>On The Road</h3>
+                    <p>10,126.443 miles</p>
+                </div>
+            </div>
+        </section>
+        <!-- Service Section -->
+        <section>
+            <h1>our services</h1>
+            <div id="service" class="sectionContent">
+                <div class="box">
+                </div>
+                <div class="box">
+                </div>
+                <div class="box">
+                </div>
+            </div>
+        </section>
+        <!-- Team Section -->
+        <section>
+            <h1>our team</h1>
+            <div id="team" class="sectionContent">
+                <div id="fritz" class="box"></div>
+                <div id="fran" class="box"></div>
+                <div id="bill" class="box"></div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section>
+            <h1>contact us</h1>
+            <div id="contact" class="sectionContent">
+                <div id="fritz" class="box"></div>
+                <form action="#">
+                    <br> Name:
+                    <br>
+                    <input type="text" name="firstname" placeholder="please enter you name">
+                    <br>
+                    <br> E-Mail:
+                    <br>
+                    <input type="text" name="lastname" placeholder="please enter you email">
+                    <br>
+                    <br> Your Message:
+                    <br>
+                    <textarea name="msg" placeholder="enter your message"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit" onclick="show()">
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        footer
+    </footer>
 
-	<footer>
-	footer	
-	</footer>
-	
+    <!-- MODAL -->
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fas fa-times closeBtn"></i>
+                <h2>Check Prices</h2>
+            </div>
+            <div class="modal-body">
+                <label>Your Name: <input id="name" type="text"></label><br>
+                <label>Age: <input id="age" type="text"></label><br>
+                <label>Country: <input id="country" type="text"></label><br>
+                <label>Horsepower: <input id="power" type="text"></label>
+                <button id="submit" class="button">Calculate</button>
+            </div>
+            <div class="modal-result">
+               sdf
+            </div>
+        </div>
+    </div>
 </body>
-<<script src="js/main.json"></script>
-<script src="js/main.js"></script>
+<script src="js/main.json"></script>
+    <script src="js/main.js"></script>
+
 </html>

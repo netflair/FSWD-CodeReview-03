@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* COLORS */
 /* FONTS */
 body {
@@ -88,5 +89,74 @@ section:nth-child(odd) {
 
 #numbers h3 {
   color: #f83939; }
+
+/* --------- Modal Styles --------- */
+.button {
+  background: #C6C6C6;
+  padding: 1em 2em;
+  color: #008CC1;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.button:hover {
+  background: #008CC1;
+  color: #000;
+  cursor: pointer; }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.7); }
+
+.modal-header {
+  border-bottom: 3px solid #f83939;
+  text-align: center;
+  font-family: "Alfa Slab One", cursive; }
+
+.modal-body {
+  width: 50%;
+  border: 1px solid black;
+  margin: 20px auto; }
+
+.modal-body input {
+  color: #1c1c1c; }
+
+.modal-body label {
+  width: 100%;
+  display: block; }
+
+.modal-content {
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  padding: 40px;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  animation-name: modalopen;
+  animation-duration: 1s; }
+
+@keyframes modalopen {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.closeBtn {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-right: -30px; }
+
+.closeBtn:hover, .closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
