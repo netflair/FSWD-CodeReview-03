@@ -88,6 +88,9 @@ section:nth-child(even) {
 #numbers h3 {
   color: #f83939; }
 
+#contact {
+  padding-top: 0; }
+
 /* --------- Modal Styles --------- */
 .button {
   background: #f83939;

@@ -43,8 +43,10 @@ window.onclick = function outsideClick(e) {
 var submit = document.getElementById('submit');
 var result = document.getElementById('result');
 
+//Fire function
 submit.addEventListener('click', calculateInsurance, false);
 
+//Function 
 function calculateInsurance() {
     //Get Values
     var name = document.getElementById('name').value;
@@ -65,7 +67,7 @@ function calculateInsurance() {
     //Validation-----------------------------
     //Check Name
     if (name == "") {
-        errName.innerHTML = "Please enter your name.<br>";
+        errName.innerHTML = "Please enter your name.";
     } else {
         errName.innerHTML = "";
     }
@@ -92,7 +94,7 @@ function calculateInsurance() {
         errPower.innerHTML = "";
     }
 
-    //IF not validated = Output Check Data ELSE start calc
+    //IF not validated = Output "Check Data" ELSE start calc
     if (name == "" || age == "" || isNaN(age) || y[x].defaultSelected == true || power == "" || isNaN(power)) {
         result.innerHTML = "Please check your data.";
     } else {
