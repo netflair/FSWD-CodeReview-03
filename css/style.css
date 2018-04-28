@@ -90,10 +90,10 @@ section:nth-child(even) {
 
 /* --------- Modal Styles --------- */
 .button {
-  background: #C6C6C6;
+  background: #f83939;
   padding: 1em 2em;
-  color: #008CC1;
-  border: 1px solid #f83939;
+  color: #fff;
+  border: 1px solid #008CC1;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase; }

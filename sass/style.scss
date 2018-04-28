@@ -125,10 +125,10 @@ section:nth-child(even) {
 /* --------- Modal Styles --------- */
 
 .button {
-    background: #C6C6C6;
+    background: $mainColor;
     padding: 1em 2em;
-    color: $secColor;
-    border: 1px solid $mainColor;
+    color: #fff;
+    border: 1px solid $secColor;
     border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
